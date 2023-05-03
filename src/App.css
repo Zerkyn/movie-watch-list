@@ -1,6 +1,35 @@
 .App {
   text-align: center;
   margin: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+
+header {
+  background-color: #4B4E6D;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+h2 {
+  margin: 0;
+}
+
+
+button {
+  background-color: #84DCC6;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #B66D0D;
+  color: white;
 }
 
 main {
@@ -8,19 +37,27 @@ main {
 }
 
 img {
+  margin-top: 10px;
   width: 70%;
 }
 
 .movie-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 
 .movie-card {
   width: 300px;
-  height: 450px;
+  height: 480px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.movie-card:hover {
+  box-shadow: 0px 5px 10px 2px #4B4E6D;
 }
 
 .page {
@@ -29,8 +66,10 @@ img {
 
 .watchlist {
   width: 20%;
+  background-color: #95A3B3;
 }
 
-.btn-container {
-  margin-bottom: 20px;
+.btn-container button {
+  margin-left: 200px;
+  margin-right: 200px;
 }

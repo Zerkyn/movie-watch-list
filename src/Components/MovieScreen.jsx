@@ -25,8 +25,8 @@ const MovieScreen = props => {
 
     return (
         <div className="page">
-            <h1>Ryan's Movie Theatre</h1>
-            <h3>Add a movie to your watchlist</h3>
+            <h1>Movie Theatre</h1>
+            <h3 style={{ color: '#b66d0d' }}>Add a movie to your watchlist</h3>
             <div className="btn-container">
                 <button onClick={page !== 1 && decrement}>Previous</button>
                 <button onClick={increment}>Next</button>
